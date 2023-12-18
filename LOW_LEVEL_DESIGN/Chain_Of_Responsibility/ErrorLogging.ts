@@ -1,6 +1,6 @@
 import { Logging } from "./Logging";
 
-export class InfoLogging extends Logging
+export class ErrorLogging extends Logging
 {
 
     constructor(nextLogger:Logging)
@@ -10,9 +10,9 @@ export class InfoLogging extends Logging
 
     log(type:number,message:string)
     {
-        if(type == 1)
+        if(type == 3)
         {
-          console.log("INFO" , message);
+          console.log("ERROR" , message);
         }
         else
         {

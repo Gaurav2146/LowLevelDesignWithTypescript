@@ -1,6 +1,6 @@
 import { Logging } from "./Logging";
 
-export class InfoLogging extends Logging
+export class DebugLogging extends Logging
 {
 
     constructor(nextLogger:Logging)
@@ -12,7 +12,7 @@ export class InfoLogging extends Logging
     {
         if(type == 1)
         {
-          console.log("INFO" , message);
+          console.log("DEBUG" , message);
         }
         else
         {
