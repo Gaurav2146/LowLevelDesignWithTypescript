@@ -1,9 +1,9 @@
 
 export abstract class Logging
 {
-   nextLogger:Logging;
+   nextLogger:Logging|null;
 
-   constructor(nextLogger:Logging)
+   constructor(nextLogger:Logging|null)
    {
     this.nextLogger=nextLogger;
    }

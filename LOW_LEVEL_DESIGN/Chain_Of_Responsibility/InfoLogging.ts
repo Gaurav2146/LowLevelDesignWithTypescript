@@ -3,7 +3,7 @@ import { Logging } from "./Logging";
 export class InfoLogging extends Logging
 {
 
-    constructor(nextLogger:Logging)
+    constructor(nextLogger:Logging|null)
     {
         super(nextLogger);
     }
