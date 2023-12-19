@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"ts-node ./LOW_LEVEL_DESIGN/Chain_Of_Responsibility/Main.ts",
+    "start":"ts-node ./LOW_LEVEL_DESIGN/Composite_Design_Pattern/Folder_And_Files/main.ts", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
