@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"ts-node ./LOW_LEVEL_DESIGN/Composite_Design_Pattern/Calculator/main.ts", 
+    "start":"ts-node ./LOW_LEVEL_DESIGN/State_Design_Pattern/VendingMachine/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
